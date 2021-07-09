@@ -1,0 +1,17 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "A module for ClubPanel providing a homepage for signed in users.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClubPanel/Dashboard.git"
+  },
+  "author": "Jonah Uellenberg",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ClubPanel/Dashboard/issues"
+  },
+  "homepage": "https://github.com/ClubPanel/Dashboard#readme",
+  "private": false,
+  "devDependencies": {}
+}
