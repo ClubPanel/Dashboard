@@ -6,5 +6,5 @@ import {requireAuth} from "../../../server/util/auth";
 export const registerServer = (app: Express) => {
   const configs = GetConfig<DashboardConfig>("client/dashboard.json");
 
-  app.use(configs.url, requireAuth());
+  app.get(configs.url, requireAuth());
 };
