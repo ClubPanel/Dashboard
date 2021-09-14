@@ -12,5 +12,6 @@ const config: DashboardConfig = {
   __comment__categoryDescriptions__: "Below are the descriptions for each category that will appear in the dashboard, above the links to each item in them.",
   categoryDescriptions: {
     "Example Category": "This is an example category. Put the description for this category here."
-  }
+  },
+  enableDelete: true
 };

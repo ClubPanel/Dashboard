@@ -5,4 +5,5 @@ export interface DashboardConfig extends Config {
   name: string;
   welcomeMessageDescription: string;
   categoryDescriptions: Record<string, string>;
+  enableDelete: boolean;
 }
